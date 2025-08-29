@@ -6,6 +6,7 @@ using namespace std;
 class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
+        
         int n = fruits.size();
         unordered_map<int , int> mp;
         int l = 0 , r = 0;
