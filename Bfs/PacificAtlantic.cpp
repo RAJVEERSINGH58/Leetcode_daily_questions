@@ -20,8 +20,10 @@ public:
 
         while(! qu.empty()){
 
-            auto [i , j] = qu.front();
+            auto x = qu.front();
             qu.pop();
+            int i = x.first;
+            int j = x.second;
             vis[i][j] = true;
 
             for(int k = 0 ; k < 4 ; k++){
